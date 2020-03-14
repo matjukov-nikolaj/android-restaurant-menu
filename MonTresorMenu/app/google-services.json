@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148991256046",
+    "firebase_url": "https://montresormenu.firebaseio.com",
+    "project_id": "montresormenu",
+    "storage_bucket": "montresormenu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148991256046:android:1c818f08cc8b9fbbd39aff",
+        "android_client_info": {
+          "package_name": "com.mvs.montresormenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148991256046-ct7pb692vtcmfj7am8iv1kv4hbru0kve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mvs.montresormenu",
+            "certificate_hash": "44d3c7296660360f207429b888c52cd3a571b698"
+          }
+        },
+        {
+          "client_id": "148991256046-ms3j4c0fbncmnkhghe3u3omhqle5uk2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkAfJwx_XqFN-mpxtryugm6LRFza65TLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148991256046-ms3j4c0fbncmnkhghe3u3omhqle5uk2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

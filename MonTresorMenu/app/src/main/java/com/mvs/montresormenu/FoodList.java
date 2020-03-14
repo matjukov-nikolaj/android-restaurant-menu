@@ -1,5 +1,6 @@
 package com.mvs.montresormenu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -67,10 +68,9 @@ public class FoodList extends AppCompatActivity {
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-//                        Intent foodList = new Intent(Home.this, FoodList.class);
-//                        foodList.putExtra("categoryId", adapter.getRef(position).getKey());
-//                        startActivity(foodList);
-                        Toast.makeText(FoodList.this, ""+clickItem.getName(), Toast.LENGTH_SHORT).show();
+                        Intent foodDetail = new Intent(FoodList.this, FoodDetail.class);
+                        foodDetail.putExtra("foodId", adapter.getRef(position).getKey());
+                        startActivity(foodDetail);
                     }
                 });
             }
